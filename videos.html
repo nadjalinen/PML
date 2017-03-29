@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+	<style type="text/css">
+		</style>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<title>Prank My Life</title>
+	</head>
+
+	<body>
+	<img src="images/logo1.png" style="float:left; margin: 20px"  width="150" height="150">
+
+		<!-- Button to open the modal -->
+		<button onclick="document.getElementById('id01').style.display='block'" style="margin-left: 430px">Sign Up</button>
+
+		<!-- The Modal (contains the Sign Up form) -->
+		<div id="id01" class="modal">
+		  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content animate" action="/action_page.php">
+		    <div class="container">
+		      <label><b>Email</b></label>
+		      <input type="text" placeholder="Enter Email" name="email" required>
+
+		      <label><b>Password</b></label>
+		      <input type="password" placeholder="Enter Password" name="psw" required>
+
+		      <label><b>Repeat Password</b></label>
+		      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+		      <input type="checkbox" checked="checked"> Remember me
+		      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+		      <div class="clearfix">
+		        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		        <button type="submit" class="signupbtn">Sign Up</button>
+		      </div>
+		    </div>
+		  </form>
+		</div>
+
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		    if (event.target == modal) {
+		        modal.style.display = "none";
+		    }
+		}
+		</script>
+
+		<!-- Button to open the modal login form -->
+		<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+		<!-- The Modal -->
+		<div id="id01" class="modal">
+		  <span onclick="document.getElementById('id01').style.display='none'" 
+		class="close" title="Close Modal">&times;</span>
+
+		  /* <!-- Modal Content --> */
+		  <form class="modal-content animate" action="/action_page.php">
+		    <div class="imgcontainer">
+		      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+		    </div>
+
+		    <div class="container">
+		      <label><b>Username</b></label>
+		      <input type="text" placeholder="Enter Username" name="uname" required>
+
+		      <label><b>Password</b></label>
+		      <input type="password" placeholder="Enter Password" name="psw" required>
+
+		      <button type="submit">Login</button>
+		      <input type="checkbox" checked="checked"> Remember me
+		    </div>
+
+		    <div class="container" style="background-color:#f1f1f1">
+		      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+		      <span class="psw">Forgot <a href="#">password?</a></span>
+		    </div>
+		  </form>
+		</div>
+
+		<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		    if (event.target == modal) {
+		        modal.style.display = "none";
+		    }
+		}
+		</script>
+
+		<input type="text" name="search" placeholder="Search..">
+
+		<ul style="list-style-type:none;">
+			<li style="margin-left: 400px"><a href="home.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+
+		<h1>Want to see what others have done?</h1>
+
+			<video width="350" controls>
+	  			<source src="videos/HOT PEPPER EXTRACT PRANK.mp4" type="video/mp4">
+	  			Your browser does not support HTML5 video.
+			</video>
+
+			<video width="350" controls>
+	  			<source src="videos/GIRLFRIEND GETS REVENGE.mp4" type="video/mp4">
+	  			Your browser does not support HTML5 video.
+			</video>
+
+			<video width="350" controls>
+	  			<source src="videos/Yaga Gone Wrong(Guy Gets Slapped).mp4" type="video/mp4">
+	  			Your browser does not support HTML5 video.
+			</video>
+
+		<table style="border: solid 5px; margin: 50px; padding: 25px; width:30%" class="social_media">
+			<tr>
+				<th>
+					<img src="images/contacts-xxl.png" style="float:left" width="130" height="120">
+					<p>Prank My Life,inc.
+						<br>johndoe@prankmylife.com</br>
+						(718) 900-0903</p>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<div class="social_media">
+				<!-- Add font awesome icons -->
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-tumblr"></a>
+				<a href="#" class="fa fa-snapchat"></a>
+					</div>
+				</th>
+			</tr>
+		</table>
+
+		<table style="border: solid 3px; margin: 50px; padding: 25px; width:30%" class="social_media">
+			<tr>
+				<th>
+					<img src="images/contacts-xxl.png" style="float:left" width="130" height="120">
+					<p>Prank My Life,inc.
+						<br>janedoe@prankmylife.com</br>
+						1(292) 456-0837</p>
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<div class="social_media">
+				<!-- Add font awesome icons -->
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-tumblr"></a>
+				<a href="#" class="fa fa-snapchat"></a>
+					</div>
+				</th>
+			</tr>
+		</table>
+
+		<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</body>
+
+	</html>
